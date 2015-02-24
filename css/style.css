@@ -1,11 +1,11 @@
 /* All Custom CSS */
 
-/* Logo */
+/**************************** Logo ************************************/
 .logo img {
 	padding: 15px;
 }
 
-/* Nav */
+/***************************** Nav ************************************/
 .navbar{
 	height: 50px;
 	margin-bottom: 0px;
@@ -16,11 +16,10 @@ ul.nav.navbar-nav {
 }
 
 .navbar-nav li a {
-	padding: 15px 25px 15px;
+	padding: 10px 20px 10px 10px;
 }
 
-/**************************Sticky Footer Info*************************/
-
+/************************** Sticky Footer Info ************************/
 html {
   position: relative;
   min-height: 100%;
@@ -31,28 +30,36 @@ body {
 }
 
 
-/*************************Main Page Sections***************************/
-
+/*********************************** Sections **************************/
 .top-panel{
 	background-color: #EE2A2B;
-	height:45px;
+	height:30px;
 }
 
 .logo-panel{
 	background-color: #000000;
-	height:170px;
+	height:150px;
 	border-bottom: 2px #fff solid;
 }
 
 .nav-bar{
 		background-color: #000000;	
-		height::;px;
 }
 
+/************************* Slider *****************************/
 .slider{
 	background-color: #efefef;
-	height:600px;
 }
+
+.slider div.col-md-12{
+	padding: 0px;
+}
+
+
+
+
+
+
 
 .content{
 	background-color: #fff;
