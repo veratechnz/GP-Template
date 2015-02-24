@@ -2,6 +2,8 @@
 
 // Nivo  Slider Code
 $(window).load(function() {
+
+
 	$('#slider').nivoSlider({
 		effect: 'fade',                                   
     	animSpeed: 2000,                 
@@ -14,5 +16,7 @@ $(window).load(function() {
     	prevText: '',
         nextText: ''                
 	});
-});
+
+
+}); //Window onload ends
 
