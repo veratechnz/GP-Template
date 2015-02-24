@@ -59,10 +59,18 @@ body {
 	padding: 0px;
 }
 
-
+/************************* Content *****************************/
 .content{
 	background-color: #fff;
-	height:200px;
+	height: 600px;
+}
+
+.title{
+	border-bottom: 1px solid #EE2A2B;
+	padding-bottom: 2%;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 0px;
 }
 
 .footer {
