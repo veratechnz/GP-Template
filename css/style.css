@@ -163,7 +163,10 @@ body {
 	font-weight: bold;
 	margin-top: 0px;
 }
-.news-item a { padding: 5px; }
+.news-item a {
+	color:#ED1922;
+	padding: 5px;
+}
 
 /************************* Footer ******************************/
 .footer {
@@ -175,7 +178,10 @@ body {
   height:200px;
 }
 
-/**************************** General Classes ******************/
+/**************************** General Classes & Elements *******/
+a:hover {
+	color: #000000;
+}
 .center-block {
 	display: block;
 	margin-right: auto;
