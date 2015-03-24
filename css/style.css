@@ -1,11 +1,33 @@
 /* All Custom CSS */
 
+/**********************
+*	GP red: 	#ED1922	rgb(237,28,36);
+*	GP black:	#000000	rgb(15,11,20);
+*	GP white:	#FFFFFF	rgb(255,255,255);
+**********************/
+
 /**************************** Resets ***************************/
 img { max-width: 100%; }
 .h3 { font-size: 18px; }
 .h4 { font-size: 15px; }
 p { font-size: 12px; }
 small { font-size: 10px; }
+
+/**************************** Colors ***************************/
+.gp-red { color: #ED1922; }
+.gp-black { color:#000000; }
+
+/**************************** Top Panel ************************/
+.contact-details, .login {
+	color:#FFF;
+	padding-left:30px;
+	margin-top:3px;
+}
+.email { display: block; }
+@media (min-width: 640px) {
+	.email { margin-left: 30px; display: inline; }
+}
+.login { text-align: right; }
 
 /**************************** Logo *****************************/
 .logo img {
@@ -24,11 +46,17 @@ ul.nav.navbar-nav {
 
 .navbar.navbar-default {
 	margin-bottom: 0px;
-	min-height: 42px;
+	min-height: 43px;
 }
 
 .navbar-nav li a {
-	padding: 10px 20px 10px 10px;
+	padding: 10px 19px 10px 0px;/*with these values the nav bar fits in 768px width*/
+}
+.navbar-nav li a:hover { color:#ED1922; }
+
+.navbar-nav .fa-search {
+	color: #FFF;
+	margin-top: 15px;
 }
 
 /************************** Sticky Footer Info *****************/
@@ -38,14 +66,17 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 200px;
 }
 
 
 /*********************************** Sections ******************/
 .top-panel{
 	background-color: #EE2A2B;
-	height:30px;
+	height:50px;
+}
+@media (min-width: 640px) {
+	.top-panel { height: 30px; }
 }
 
 .logo-panel{
@@ -80,10 +111,14 @@ body {
 
 .title-home { 
 	font-size: 22px; /*this font size avoids having a three-line title in sml devices*/
+	font-weight: 600;
 	margin-top: 30px;
 }
 @media (min-width: 768px) {
 	.title-home { font-size: 30px; margin-top: 35px; }
+}
+.title-home-thin {
+	font-weight: 300;
 }
 
 /* Services */

@@ -4398,13 +4398,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333333;
+  color: #ED1922;
+  border-bottom: 1px solid;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #ee2a2b;
+  color: #ED1922;
   background-color: #000000;
 }
 .navbar-default .navbar-nav > .disabled > a,
