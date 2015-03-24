@@ -1,11 +1,19 @@
 /* All Custom CSS */
 
-/**************************** Logo ************************************/
+/**************************** Resets ***************************/
+img { max-width: 100%; }
+.h3 { font-size: 18px; }
+.h4 { font-size: 15px; }
+p { font-size: 12px; }
+small { font-size: 10px; }
+
+/**************************** Logo *****************************/
 .logo img {
-	padding: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
-/***************************** Nav ************************************/
+/***************************** Nav *****************************/
 .row.nav-bar{
 	margin-bottom: 0px;
 }
@@ -23,7 +31,7 @@ ul.nav.navbar-nav {
 	padding: 10px 20px 10px 10px;
 }
 
-/************************** Sticky Footer Info ************************/
+/************************** Sticky Footer Info *****************/
 html {
   position: relative;
   min-height: 100%;
@@ -34,7 +42,7 @@ body {
 }
 
 
-/*********************************** Sections **************************/
+/*********************************** Sections ******************/
 .top-panel{
 	background-color: #EE2A2B;
 	height:30px;
@@ -42,8 +50,13 @@ body {
 
 .logo-panel{
 	background-color: #000000;
-	height:150px;
 	border-bottom: 3px #fff solid;
+	height: 95px;
+}
+@media (min-width: 480px) {
+	.logo-panel {
+		height:150px;
+	}
 }
 
 .nav-bar{
@@ -65,14 +78,57 @@ body {
 	height: 600px;
 }
 
-.title{
+.title-home { 
+	font-size: 22px; /*this font size avoids having a three-line title in sml devices*/
+	margin-top: 30px;
+}
+@media (min-width: 768px) {
+	.title-home { font-size: 30px; margin-top: 35px; }
+}
+
+/* Services */
+.service-home {
+	margin-top: 25px;
+}
+@media (min-width: 640px) and (max-width: 767px) {
+	.service-home { width:30%; float:left; margin-right: 1%; margin-bottom: 45px; }
+	.service-home.first { margin-left: 4%; }
+	.service-home.last { margin-right: 4%; }
+}
+@media (min-width: 768px) {
+	.service-home { width:30%; float:left; margin-top: 35px; margin-bottom: 45px; }
+	.service-home.first { margin-left: 5%; }
+	.service-home.last { margin-right: 5%; }
+}
+@media (min-width: 992px) {
+	.service-home { width: 20%; margin-right: 1%; margin-bottom: 0px; }
+	.service-home.first { margin-left: 1%; }
+	.service-home.last { margin-right: 3%; }
+}
+
+.service-home img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Newsletter */
+.news-home { margin-top: 35px; }
+.news-item { max-width: 45%; float: left; }
+.news-item.first { margin-right: 10%; }
+@media (min-width: 992px) {
+	.news-home { width: 30%; float: left; }
+	.news-item { max-width: 100%; float: none; }
+	.news-item.first { margin-right: 0%; }
+}
+.news-title{
 	border-bottom: 1px solid #EE2A2B;
 	padding-bottom: 2%;
 	font-weight: bold;
-	font-size: 20px;
 	margin-top: 0px;
 }
 
+/************************* Footer ******************************/
 .footer {
   position: absolute;
   bottom: 0;
@@ -82,3 +138,9 @@ body {
   height:200px;
 }
 
+/**************************** General Classes ******************/
+.center-block {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
