@@ -203,10 +203,10 @@ th {
             box-shadow: none !important;
     text-shadow: none !important;
   }
-  a,
+  /*a,
   a:visited {
     text-decoration: underline;
-  }
+  }*/
   a[href]:after {
     content: " (" attr(href) ")";
   }
@@ -1094,8 +1094,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #23527c;
-  text-decoration: underline;
+  color: #000000;
+  /*text-decoration: underline;*/
 }
 a:focus {
   outline: thin dotted;
@@ -4399,7 +4399,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #ED1922;
-  border-bottom: 1px solid;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
