@@ -9,65 +9,23 @@
 	<title>GlassProtech</title>
 </head>
 <body id="about-us">
-
 	<!-- MAIN WRAPPER -->
 	<div class="container-fluid">
-		<!-- TOP PANEL -->
-		<div class="row top-panel">
-			<div class="container">
-				<!-- Contact Details -->
-				<div class="col-xs-8 contact-details">
-					<i class="fa fa-phone"></i>&nbsp;&nbsp;0800 457 776
-					<span class="email">
-						<i class="fa fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:info@glassprotech.co.nz">info@glassprotech.co.nz</a>
-					</span>
-				</div>
-				<!-- Login -->
-				<div class="col-xs-1 extra-gutter"></div>
-				<!-- <div class="col-xs-1 extra-gutter"></div> -->
-				<div class="col-xs-3 login">Licencee Login&nbsp;&nbsp;<i class="fa fa-shopping-cart"></i></div>
-			</div>
-		</div>
-		<!-- LOGO PANEL -->
-		<div class="row logo-panel">
-			<div class="container">
-				<div class="col-md-6">
-					<div class="logo">
-						<img src="img/logo.png" alt="Glass Protech Logo" >
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- NAV BAR -->
-		<div class="row nav-bar">
-			<div class="container">
-				<!-- <div class="col-lg-12"> -->
-					<nav class="navbar navbar-default">
-	          <div id="navbar" class="navbar-collapse collapse">
-	            <ul class="nav navbar-nav">
-	              <li><a href="index.html">Home</a></li>
-	              <li class="active"><a href="about-us.html">About US</a></li>
-	              <li><a href="#">What We Do</a></li>
-	              <li><a href="#">Gallery</a></li>
-	              <li><a href="#">Become A Licensee</a></li>
-	              <li><a href="#">Newsletter</a></li>
-	              <li><a href="#">F.A.Q</a></li>
-	              <li><a href="#">Contact</a></li>
-	              <li><i class="fa fa-search"></i></li>
-	            </ul>
-	          </div><!--/.nav-collapse -->
-	          <!-- <input type="text" class="form-control" placeholder="Search for..."> -->
-		      </nav>
-				<!-- </div> -->
-			</div>
-		</div>
+
+
+<!-- TOP PANEL -->
+<?php include('inc/logo-inc.php') ?>
+
+<!-- NAV BAR -->
+<?php include('inc/nav-inc.php') ?>
+
 		<!-- HEADER -->
 		<div class="row">
 			<div class="content-header">
 				<!-- <img src="img/content-header.jpg" alt=""> -->
 				<div class="container">
 					<div class="col-xs-12">
-						<h1>ABOUT US</h1>
+						<h1>F.A.Q</h1>
 					</div>
 				</div>
 			</div>

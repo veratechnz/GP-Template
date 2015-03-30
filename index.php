@@ -13,55 +13,13 @@
 
 	<!-- MAIN WRAPPER -->
 	<div class="container-fluid">
-		<!-- TOP PANEL -->
-		<div class="row top-panel">
-			<div class="container">
-				<!-- Contact Details -->
-				<div class="col-xs-8 contact-details">
-					<i class="fa fa-phone"></i>&nbsp;&nbsp;0800 457 776
-					<span class="email">
-						<i class="fa fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:info@glassprotech.co.nz">info@glassprotech.co.nz</a>
-					</span>
-				</div>
-				<!-- Login -->
-				<div class="col-xs-1 extra-gutter"></div>
-				<!-- <div class="col-xs-1 extra-gutter"></div> -->
-				<div class="col-xs-3 login">Licencee Login&nbsp;&nbsp;<i class="fa fa-shopping-cart"></i></div>
-			</div>
-		</div>
-		<!-- LOGO PANEL -->
-		<div class="row logo-panel">
-			<div class="container">
-				<div class="col-md-6">
-					<div class="logo">
-						<img src="img/logo.png" alt="Glass Protech Logo" >
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- NAV BAR -->
-		<div class="row nav-bar">
-			<div class="container">
-				<!-- <div class="col-lg-12"> -->
-					<nav class="navbar navbar-default">
-	          <div id="navbar" class="navbar-collapse collapse">
-	            <ul class="nav navbar-nav">
-	              <li class="active"><a href="">Home</a></li>
-	              <li><a href="about-us.html">About US</a></li>
-	              <li><a href="#">What We Do</a></li>
-	              <li><a href="#">Gallery</a></li>
-	              <li><a href="#">Become A Licensee</a></li>
-	              <li><a href="#">Newsletter</a></li>
-	              <li><a href="#">F.A.Q</a></li>
-	              <li><a href="#">Contact</a></li>
-	              <li><i class="fa fa-search"></i></li>
-	            </ul>
-	          </div><!--/.nav-collapse -->
-	          <!-- <input type="text" class="form-control" placeholder="Search for..."> -->
-		      </nav>
-				<!-- </div> -->
-			</div>
-		</div>
+
+<!-- TOP PANEL -->
+<?php include('inc/logo-inc.php') ?>
+
+<!-- NAV BAR -->
+<?php include('inc/nav-inc.php') ?>
+
 		<!-- SLIDER -->
 		<div class="row slider">
 			<div class="col-xs-12">
@@ -76,7 +34,6 @@
 			<div class="container services-home">
 				<div class="col-md-12 text-center">
 					<h2 class="title-home"><span class="gp-red">Glass</span><span class="gp-black">Protech</span> <span class="title-home-thin">Serious About Surface Protection</span></h2>
-					<h3 class="sub-title-home">Lorem ipsum dolor sit amet</h3>
 				</div>
 				<div class="service-home first">
 					<img src="img/glassprotech-services-a.jpg" alt="">
