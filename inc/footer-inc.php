@@ -10,7 +10,7 @@
 					<h4 class="footer-title">Contact Us</h4>
 					<p><i class="fa fa-phone fa-lg"></i>0800 457 776</p>
 					<p class="email"><i class="fa fa-envelope"></i><a href="mailto:info@glassprotech.co.nz">info@glassprotech.co.nz</a></p>
-					<p><i class="fa fa-map-marker fa-lg"></i>&nbsp;At an address.<br><span class="indent">Somewhere in</span><br><span class="indent">New Zealand.</span></p>
+					<p><i class="fa fa-map-marker fa-lg"></i>&nbsp;At an address.<br><span class="indent">Location in</span><br><span class="indent">New Zealand/Australia</span></p>
 				</div>
 				<!-- WHAT WE DO -->
 				<div class="col-sm-3">

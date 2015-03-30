@@ -4408,7 +4408,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:focus {
   color: #ED1922;
   background-color: #000000;
-  border-bottom: 1px #ED1922 solid;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,

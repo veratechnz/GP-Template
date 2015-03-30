@@ -1,13 +1,9 @@
 <!DOCTYPE	html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/style.css">
-	<title>GlassProtech</title>
-</head>
+
+<!-- HEAD -->
+<?php include('inc/head-inc.php') ?>
+
 <body id="about-us">
 
 	<!-- MAIN WRAPPER -->
@@ -25,7 +21,7 @@
 				<!-- <img src="img/content-header.jpg" alt=""> -->
 				<div class="container">
 					<div class="col-xs-12">
-						<h1>LICENSEE</h1>
+						<h1>BECOME A LICENSEE</h1>
 					</div>
 				</div>
 			</div>
