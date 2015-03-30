@@ -1,53 +1,123 @@
 /* All Custom CSS */
 
-/**************************** Logo ************************************/
-.logo img {
-	padding: 15px;
-}
+/**********************
+*	GP red: 	#ED1922	rgb(237,28,36);
+*	GP black:	#000000	rgb(15,11,20);
+*	GP white:	#FFFFFF	rgb(255,255,255);
+**********************/
 
-/***************************** Nav ************************************/
-.row.nav-bar{
-	margin-bottom: 0px;
-}
-
-ul.nav.navbar-nav {
-	width: 100%;
-}
-
-.navbar.navbar-default {
-	margin-bottom: 0px;
-	min-height: 42px;
-}
-
-.navbar-nav li a {
-	padding: 10px 20px 10px 10px;
-}
-
-/************************** Sticky Footer Info ************************/
+/************************** Sticky Footer Info *****************/
 html {
   position: relative;
   min-height: 100%;
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 350px;
 }
 
+/**************************** Resets ***************************/
+img { max-width: 100%; }
+h3, .h3 { font-size: 18px; }
+h4, .h4 { font-size: 15px; }
+p { font-size: 12px; }
+small { font-size: 11px; }
 
-/*********************************** Sections **************************/
+/**************************** Colors ***************************/
+.gp-red { color: #ED1922; }
+.gp-black { color:#000000; }
+
+/*********************************** Sections ******************/
 .top-panel{
 	background-color: #EE2A2B;
-	height:30px;
+	height:50px;
+}
+@media (min-width: 640px) {
+	.top-panel { height: 30px; }
 }
 
 .logo-panel{
 	background-color: #000000;
-	height:150px;
-	border-bottom: 3px #fff solid;
+	border-bottom: 1px #ED1922 solid;
+	height: 95px;
+}
+@media (min-width: 480px) {
+	.logo-panel {
+		height:150px;
+	}
 }
 
 .nav-bar{
 		background-color: #000000;	
+}
+
+/**************************** Top Panel ************************/
+.contact-details, .login {
+	color:#FFF;
+	margin-top:3px;
+}
+
+
+/* Fix to look the same as template */
+/*@media (min-width: 1200px) {
+	.contact-details { padding-left: 45px; padding-right: 0px; }
+}*/
+/* fix ends */
+
+.top-panel .email { display: block; }
+.email a { color:#FFFFFF; }
+@media (min-width: 640px) {
+	.top-panel .email { margin-left: 30px; display: inline; }
+}
+.login {
+	text-align: right;
+}
+/* Fix to look the same as template */
+@media (min-width: 1200px) {
+	.login { padding-right:88px; }
+}
+/* fix ends */
+
+/**************************** Logo *****************************/
+.logo img {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+/* Fix to look the same as template */
+/*@media (min-width: 1200px) {
+	.logo img { margin-left: 15px; }
+}*/
+/* fix ends */
+
+/***************************** Nav *****************************/
+.row.nav-bar{
+	margin-bottom: 0px;
+}
+
+/* Fix to look the same as template */
+/*@media (min-width: 1200px) {
+	.navbar {
+		margin-left: 15px;
+	}
+}*/
+/* fix ends */
+
+ul.nav.navbar-nav {
+	width: 100%;
+}
+.navbar-default .navbar-nav > li > a { margin-right: 50px; }
+
+.navbar.navbar-default {
+	margin-bottom: 0px;
+	min-height: 50px;
+}
+
+/* .navbar-nav li a --> see ".navbar-default .navbar-nav > li > a" in bootstrap.css  */
+
+.navbar-nav .fa-search {
+	color: #FFF;
+	padding-left:90px;
+	margin-top: 15px;
 }
 
 /************************* Slider *****************************/
@@ -55,30 +125,211 @@ body {
 	background-color: #efefef;
 }
 
-.slider div.col-md-12{
+.slider > .col-xs-12{
 	padding: 0px;
 }
 
 /************************* Content *****************************/
 .content{
 	background-color: #fff;
-	height: 600px;
+	height: 500px;
 }
 
-.title{
+/*.content-header {	background:url(../img/content-header.jpg); }*/
+.content-header { background-color: #4D515A; }
+.content-header img { margin-left:-15px; }
+.content-header h1 { color: #FFFFFF; margin: 40px 0px 35px; }
+
+.title-home { 
+	font-size: 22px; /*this font size avoids having a three-line title in sml devices*/
+	font-weight: 600;
+	margin-top: 30px;
+}
+@media (min-width: 768px) {
+	.title-home { font-size: 30px; margin-top: 35px; }
+}
+.title-home-thin {
+	font-weight: 300;
+}
+
+.sub-title-home {
+	text-transform: capitalize;
+}
+@media (min-width: 1200px) {
+	.sub-title-home {
+		color:inherit;
+		font-size:28px;
+		margin-top:33px;
+	}
+}
+
+/* Services */
+.service-home {
+	margin-top: 25px;
+}
+@media (min-width: 640px) and (max-width: 767px) {
+	.service-home { width:30%; float:left; margin-right: 1%; margin-bottom: 45px; }
+	.service-home.first { margin-left: 4%; }
+	.service-home.last { margin-right: 4%; }
+}
+@media (min-width: 768px) {
+	.service-home { width:30%; float:left; margin-top: 35px; margin-bottom: 45px; }
+	.service-home.first { margin-left: 5%; }
+	.service-home.last { margin-right: 5%; }
+}
+@media (min-width: 992px) {
+	.service-home { width: 20%; margin-right: 1%; margin-bottom: 0px; }
+	.service-home.first { margin-left: 1%; }
+	.service-home.last { margin-right: 3%; }
+}
+/* Fix to look the same as template */
+@media (min-width: 1200px) {
+	.service-home { margin-left:0px; margin-right:0px; }
+	.service-home.first { margin-left:0px; }
+	.service-home.last { margin-right: 1%; }
+	}
+}
+/* fix ends */
+
+.service-home img {
+	display: block;
+	/*margin-left: auto;
+	margin-right: auto;*/
+}
+
+/* Newsletter */
+.news-home { margin-top: 35px; }
+.news-item { max-width: 45%; float: left; }
+.news-item.first { margin-right: 10%; }
+@media (min-width: 992px) {
+	.news-home { width: 30%; float: left; }
+	.news-item { max-width: 100%; float: none; }
+	.news-item.first { margin-right: 0%; }
+}
+.news-title{
 	border-bottom: 1px solid #EE2A2B;
 	padding-bottom: 2%;
 	font-weight: bold;
-	font-size: 20px;
 	margin-top: 0px;
 }
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  background-color: #efefef;
-  height:200px;
+.news-item a {
+	color:#ED1922;
+	padding: 5px;
 }
 
+/* +++++ About Us +++++ */
+#business-desc { margin:30px 0px 60px 0px; overflow: auto; }
+#business-desc p { font-size: 14px; }
+
+#good-at {
+	background-color: #f2f2f2;
+	overflow: auto;
+}
+#good-at img { margin: 50px 0px; width:950px; }
+
+/*#who-we-are, #clients { overflow: auto; }*/
+#who-we-are h3, #clients h3 { font-size: 24px; margin:60px 0px 25px 0px; }
+
+#who-we-are-accordion .panel-heading {
+	color: #FFFFFF;
+	background-color: #A4A4A4;
+}
+#who-we-are-accordion .headingOne {
+	background-color: #EE2A2B;
+}
+
+#clients img {
+	width:110px; height: 110px;
+	margin: 0px 23px 23px 0px;
+}
+#clients .clients-controls {
+	display: block;
+	margin:10px auto 0px auto;
+	width:55px; height: 15px;
+}
+
+/************************* Footer ******************************/
+.footer {
+	color: #FFFFFF;
+  background-color: #000000;
+  padding-top:40px;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height:300px;
+  position: absolute;
+  bottom: 50px;
+}
+.footer .contact-us { width:23%; }
+
+.footer .input-group,
+.footer .form-control,
+.footer p:not(.footer-sub-title) { width: 80%; }
+
+.footer .input-group,
+.footer .form-control { height:37px; }
+
+.footer p { font-size: 14px; }
+.footer img {	padding-top: 10px; }
+.footer i { padding-right: 10px; }
+.footer input { border-radius:5px; }
+.footer hr { visibility: hidden; margin:5px; }
+.footer .email a:hover { color: #ED1922; }
+.footer .indent { margin-left:23px; }
+
+.footer-title {
+	color:#ED1922;
+	text-transform: capitalize;
+	font-size: 22px;
+	font-weight:600;
+	margin-bottom: 25px;
+}
+.footer-sub-title {
+	color: #ED1922;
+	font-weight: 600;
+}
+.footer .input-group-addon,
+.footer .btn-default {
+	color: #FFFFFF;
+	background-color: #ED1922;
+	font-weight:600;
+	font-size: 13px;
+	cursor: pointer;
+	border:none;
+}
+.footer .btn-default { margin-top: 24px; }
+.footer .form-control { font-style: italic; font-size: 12px; }
+
+/************************* Bottom Panel ************************/
+.bottom-panel {
+	color: #FCFCFC;
+	background-color: #ED1922;
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+}
+.bottom-panel p {
+	font-weight: 500;
+	margin-left:100px;
+	margin-top: 15px;
+}
+
+/*********************** General Classes & Elements ************/
+a:hover {
+	color: #000000;
+}
+
+.container.services-home { width:73%; }
+.container.bottom-section { margin-bottom: 75px; }
+
+.extra-gutter { width:4%; }
+
+.center-block {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.accordion .panel.panel-default,
+.accordion .panel-body { border:none; box-shadow: none; }
+.accordion .panel-heading { border-radius: 6px; border:none; }
