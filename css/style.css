@@ -271,7 +271,7 @@ ul.nav.navbar-nav li.active a, .navbar-default .navbar-nav > li > a:hover, .navb
 
 /* +++++ What We Do +++++ */
 #what-we-do .top-row .col-sm-6 { width: 42%; }
-#what-we-do .top-row .title-home {
+.title-home {
 	padding-bottom:12px;
 	border-bottom:1px solid #EE2A2B;
 	margin-top: 60px;
