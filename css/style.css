@@ -19,13 +19,14 @@ body {
 /**************************** Resets ***************************/
 img { max-width: 100%; }
 h3, .h3 { font-size: 18px; }
-h4, .h4 { font-size: 15px; }
+h4, .h4 { font-size: 18px; }
 p { font-size: 12px; }
 small { font-size: 11px; }
 
 /**************************** Colors ***************************/
 .gp-red { color: #ED1922; }
 .gp-black { color:#000000; }
+.gp-white { color: #FFFFFF; }
 
 /*********************************** Sections ******************/
 .top-panel{
@@ -140,6 +141,8 @@ ul.nav.navbar-nav {
 .content-header img { margin-left:-15px; }
 .content-header h1 { color: #FFFFFF; margin: 40px 0px 35px; }
 
+.middle-row { background-color: #f2f2f2; }
+
 .title-home { 
 	font-size: 22px; /*this font size avoids having a three-line title in sml devices*/
 	font-weight: 600;
@@ -218,34 +221,59 @@ ul.nav.navbar-nav {
 }
 
 /* +++++ About Us +++++ */
-#business-desc { margin:30px 0px 60px 0px; overflow: auto; }
+#business-desc { margin:0px 0px 60px 0px; }
+#business-desc .title-home { margin-bottom:40px; }
 #business-desc p { font-size: 14px; }
 
-#good-at {
-	background-color: #f2f2f2;
-	overflow: auto;
-}
-#good-at img { margin: 50px 0px; width:950px; }
+#good-at img { margin: 50px 0px; width:950px; } /* fix for the percentage circles */
 
-/*#who-we-are, #clients { overflow: auto; }*/
-#who-we-are h3, #clients h3 { font-size: 24px; margin:60px 0px 25px 0px; }
+/* +++++ FAQs +++++ */
+#faq-franchisee { padding-bottom:50px; }
+#faq-franchisee .col-sm-6 { width: 47.5%; }
+#faq-franchisee .h4 { color:#ED1922; }
+#faq-franchisee .mod-text { width:90%; }
 
-#who-we-are-accordion .panel-heading {
-	color: #FFFFFF;
-	background-color: #A4A4A4;
+/* +++++ What We Do +++++ */
+#what-we-do .top-row .col-sm-6 { width: 42%; }
+#what-we-do .top-row .title-home {
+	padding-bottom:12px;
+	border-bottom:1px solid #EE2A2B;
+	margin-top: 60px;
 }
-#who-we-are-accordion .headingOne {
-	background-color: #EE2A2B;
+#what-we-do .bottom-row .title-home-thin { color: #222222; }
+#what-we-do .top-row .mod-text { padding: 15px 0px 0px 0px; }
+#what-we-do .top-row .extra-gutter { width: 10%; }
+#what-we-do .top-row img { margin-top:60px; max-height: 385px; }
+
+#what-we-do .middle-row { padding: 60px 0px; }
+#what-we-do .middle-row .container { margin-left: 12%; }
+#what-we-do .middle-row .my-thumbnail {
+	width:100%; height: 100%;
+	margin-top: 45px;
+}
+#what-we-do .middle-row h4 {
+	padding-bottom: 12px;
+	border-bottom: 1px solid #ED1922;
+	margin-top: 25px;
 }
 
-#clients img {
-	width:110px; height: 110px;
-	margin: 0px 23px 23px 0px;
+#what-we-do .bottom-row { background-color: #4D515A; }
+#what-we-do .bottom-row .title-home-thin { color: #CCCCCC; }
+#what-we-do .sub-title-home {
+	color:#FFFFFF;
+	font-size: 16px;
+	margin-top:0px;
 }
-#clients .clients-controls {
-	display: block;
-	margin:10px auto 0px auto;
-	width:55px; height: 15px;
+#what-we-do .bottom-row hr {
+	border-color:#ED1922;
+	margin-top:15px;
+	margin-bottom:45px;
+}
+#what-we-do .bottom-row .fa { color:#ED1922; }
+#what-we-do .bottom-row .small {
+	color: #ED1922;
+	margin-top:30px;
+	margin-bottom:65px;
 }
 
 /************************* Footer ******************************/
@@ -319,8 +347,9 @@ a:hover {
 	color: #000000;
 }
 
+.multiple-sections { margin-bottom: 75px; }
+
 .container.services-home { width:73%; }
-.container.bottom-section { margin-bottom: 75px; }
 
 .extra-gutter { width:4%; }
 
@@ -330,6 +359,32 @@ a:hover {
 	margin-left: auto;
 }
 
+/* mod-heavy refers to accordions, small contact forms and small thumbs galleries */
+.mod-heavy {
+	font-size: 35px;
+	font-weight:600;
+	margin:60px 0px 25px 0px;
+}
+.mod-text { padding:15px 15px 15px 0px; }
+
+.my-thumbnail {
+	width:110px; height: 110px;
+	margin: 0px 23px 23px 0px;	
+}
+.my-thumbnails-controls {
+	display: block;
+	margin:10px auto 0px auto;
+	width:55px; height: 15px;
+}
+
 .accordion .panel.panel-default,
-.accordion .panel-body { border:none; box-shadow: none; }
-.accordion .panel-heading { border-radius: 6px; border:none; }
+.accordion .panel-body { border:none !important; box-shadow: none; }
+.accordion .panel-heading {
+	color: #FFFFFF;
+	background-color: #A4A4A4;
+	border-radius: 6px;
+	border:none;
+}
+.accordion .headingOne { /* fix for first presentation. Needs to be done via JS */
+	background-color: #EE2A2B;
+}
