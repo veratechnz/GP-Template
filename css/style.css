@@ -26,7 +26,7 @@ body {
 img { max-width: 100%; }
 h3, .h3 { font-size: 18px; }
 h4, .h4 { font-size: 15px; }
-p { font-size: 12px; }
+p { font-size: 16px; }
 small { font-size: 11px; }
 
 /**************************** Colors ***************************/
@@ -86,7 +86,7 @@ small { font-size: 11px; }
 
 /**************************** Logo *****************************/
 .logo img {
-	padding-top: 15px;
+	padding-top: 18px;
 	padding-bottom: 15px;
 }
 /* Fix to look the same as template */
@@ -124,6 +124,8 @@ ul.nav.navbar-nav li.active a, .navbar-default .navbar-nav > li > a:hover, .navb
 }
 
 /************************* Slider *****************************/
+.nivoSlider:hover .nivo-directionNav a { visibility: visible; }
+
 .slider{
 	background-color: #efefef;
 }
@@ -142,6 +144,8 @@ ul.nav.navbar-nav li.active a, .navbar-default .navbar-nav > li > a:hover, .navb
 .content-header { background-color: #4D515A; }
 .content-header img { margin-left:-15px; }
 .content-header h1 { color: #FFFFFF; margin: 40px 0px 35px; }
+
+.middle-row { background-color: #f2f2f2; }
 
 .title-home { 
 	font-size: 22px; /*this font size avoids having a three-line title in sml devices*/
@@ -241,6 +245,10 @@ ul.nav.navbar-nav li.active a, .navbar-default .navbar-nav > li > a:hover, .navb
 	background-color: #EE2A2B;
 }
 
+#business-desc { margin:0px 0px 60px 0px; }
+#business-desc .title-home { margin-bottom:40px; }
+#business-desc p { font-size: 16px; }
+
 #clients img {
 	width:110px; height: 110px;
 	margin: 0px 23px 23px 0px;
@@ -249,6 +257,59 @@ ul.nav.navbar-nav li.active a, .navbar-default .navbar-nav > li > a:hover, .navb
 	display: block;
 	margin:10px auto 0px auto;
 	width:55px; height: 15px;
+}
+
+#good-at img { margin: 50px 0px; width:950px; } /* fix for the percentage circles */
+
+/* +++++ FAQs +++++ */
+#faq-franchisee { padding-bottom:50px; }
+#faq-franchisee .col-sm-6 { width: 47.5%; }
+#faq-franchisee .h4 { color:#ED1922; }
+#faq-franchisee .mod-text { width:90%; }
+#faqs-form .form-control { border-radius: 6px; }
+#faqs-form .btn { margin-top: -4px; }
+
+/* +++++ What We Do +++++ */
+#what-we-do .top-row .col-sm-6 { width: 42%; }
+#what-we-do .top-row .title-home {
+	padding-bottom:12px;
+	border-bottom:1px solid #EE2A2B;
+	margin-top: 60px;
+}
+#what-we-do .bottom-row .title-home-thin { color: #222222; }
+#what-we-do .top-row .mod-text { padding: 15px 0px 0px 0px; }
+#what-we-do .top-row .extra-gutter { width: 10%; }
+#what-we-do .top-row img { margin-top:60px; max-height: 385px; }
+
+#what-we-do .middle-row { padding: 60px 0px; }
+#what-we-do .middle-row .container { margin-left: 12%; }
+#what-we-do .middle-row .my-thumbnail {
+	width:100%; height: 100%;
+	margin-top: 45px;
+}
+#what-we-do .middle-row h4 {
+	padding-bottom: 12px;
+	border-bottom: 1px solid #ED1922;
+	margin-top: 25px;
+}
+
+#what-we-do .bottom-row { background-color: #4D515A; }
+#what-we-do .bottom-row .title-home-thin { color: #CCCCCC; }
+#what-we-do .sub-title-home {
+	color:#FFFFFF;
+	font-size: 16px;
+	margin-top:0px;
+}
+#what-we-do .bottom-row hr {
+	border-color:#ED1922;
+	margin-top:15px;
+	margin-bottom:45px;
+}
+#what-we-do .bottom-row .fa { color:#ED1922; }
+#what-we-do .bottom-row .small {
+	color: #ED1922;
+	margin-top:30px;
+	margin-bottom:65px;
 }
 
 /************************* Footer ******************************/
@@ -313,6 +374,7 @@ ul.nav.navbar-nav li.active a, .navbar-default .navbar-nav > li > a:hover, .navb
 }
 .bottom-panel p {
 	font-weight: 500;
+	margin-left:100px;
 	margin-top: 15px;
 }
 
@@ -320,6 +382,8 @@ ul.nav.navbar-nav li.active a, .navbar-default .navbar-nav > li > a:hover, .navb
 a:hover {
 	color: #000000;
 }
+
+.multiple-sections { margin-bottom: 75px; }
 
 .container.services-home { width:73%; }
 .container.bottom-section { margin-bottom: 75px; }
@@ -332,6 +396,31 @@ a:hover {
 	margin-left: auto;
 }
 
+/* mod-heavy refers to accordions, small contact forms and small thumbs galleries */
+.mod-heavy {
+	font-size: 35px;
+	font-weight:600;
+	margin:60px 0px 25px 0px;
+}
+.mod-text { padding:15px 15px 15px 0px; }
+.my-thumbnail {
+	width:110px; height: 110px;
+	margin: 0px 23px 23px 0px;
+}
+.my-thumbnails-controls {
+	display: block;
+	margin:10px auto 0px auto;
+	width:55px; height: 15px;
+}
+
 .accordion .panel.panel-default,
-.accordion .panel-body { border:none; box-shadow: none; }
-.accordion .panel-heading { border-radius: 6px; border:none; }
+.accordion .panel-body { border:none !important; box-shadow: none; }
+.accordion .panel-heading {
+	 color: #FFFFFF;
+	 background-color: #A4A4A4;
+	 border-radius: 6px;
+	 border:none;
+	 }
+.accordion .headingOne { /* fix for first presentation. Needs to be done via JS */
+	 background-color: #EE2A2B;
+	 }

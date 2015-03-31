@@ -4,7 +4,7 @@
 <!-- HEAD -->
 <?php include('inc/head-inc.php') ?>
 
-<body id="about-us">
+<body id="what-we-do">
 
 	<!-- MAIN WRAPPER -->
 	<div class="container-fluid">
@@ -27,129 +27,105 @@
 			</div>
 		</div>
 		<!-- CONTENT -->
-		<div class="container">
-			<div class="col-xs-12">
-				<h2 class="title-home"><span class="gp-red">Glass</span><span class="gp-black">Protech</span> <span class="title-home-thin">Serious About Surface Protection</span></h2>
-			</div>
-			<div class="clearfix"></div>
-			<!-- BUSINESS DESCRIPTION -->
-			<section id="business-desc">
-				<div class="col-sm-7">
-					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.<br> Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente.</p>
-				</div>
-				<div class="col-sm-5">
-					<img src="img/business-desc.jpg" alt="">
-				</div>
-			</section>
-		</div>
-		<!-- WE'RE GOOD AT -->
-		<section id="good-at" class="row">
+		<section class="multiple-sections row top-row">
 			<div class="container">
-				<div class="col-xs-12 text-center">
-					<h2 class="text-center">WHAT WE'RE GOOD AT</h2>
+				<!-- TOP ROW -->
+				<div class="col-sm-6">
+					<h2 class="title-home"><span class="gp-red">Glass</span><span class="gp-black">Protech</span> <span class="title-home-thin">Lorem ipsum dolar</span></h2>
+					<p class="mod-text">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor bbee brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon hwg lau tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda pipo shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non jaulaa cupidatat skateboard dolor mm brunch. Food truck quinoa nesciunt laborum eiusmod. Food truck quinoa nesciunt laborum eiusmod. Food truck quinoa nesciunt laborum eiusmod.</p>
 				</div>
-				<div class="col-xs-12">
-					<img src="img/good-at.jpg" alt="">
+				<div class="col-md-1 extra-gutter"></div>
+				<!-- TOP IMAGE -->
+				<div class="col-sm-5">
+					<img src="img/grua.jpg" alt="">
 				</div>
-
-				<!-- <div class="col-sm-6 col-md-3 text-center">
-					<h4>LOREM IPSUM</h4>
-					<p>100%</p>
-				</div>
-				<div class="col-sm-6 col-md-3 text-center">
-					<h4>LOREM IPSUM</h4>
-					<p>98%</p>
-				</div>
-				<div class="col-sm-6 col-md-3 text-center">
-					<h4>LOREM IPSUM</h4>
-					<p>97%</p>
-				</div>
-				<div class="col-sm-6 col-md-3 text-center">
-					<h4>LOREM IPSUM</h4>
-					<p>95%</p>
-				</div> -->
 			</div>
 		</section>
-		<div class="container bottom-section">
-			<!-- WHO WE ARE -->
-			<section id="who-we-are">
-				<div class="col-md-6">
-					<h3>Who we are</h3>
-					<div class="panel-group accordion" id="who-we-are-accordion" role="tablist" aria-multiselectable="true">
-					  <div class="panel panel-default">
-					    <div class="panel-heading headingOne" role="tab" id="headingOne">
-					      <h4 class="panel-title">
-					        <a data-toggle="collapse" data-parent="#who-we-are-accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-					          Lorem Ipsum dolar
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-					      <div class="panel-body">
-					        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default">
-					    <div class="panel-heading" role="tab" id="headingTwo">
-					      <h4 class="panel-title">
-					        <a class="collapsed" data-toggle="collapse" data-parent="#who-we-are-accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					          Lorem Ipsum dolar
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-					      <div class="panel-body">
-					        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Nihil anim keffiyeh helvetica, craft beer.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default">
-					    <div class="panel-heading" role="tab" id="headingThree">
-					      <h4 class="panel-title">
-					        <a class="collapsed" data-toggle="collapse" data-parent="#who-we-are-accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-					          Lorem Ipsum dolar
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-					      <div class="panel-body">
-					        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Nihil anim keffiyeh helvetica, craft beer.</p>
-					      </div>
-					    </div>
-					  </div>
-					  <div class="panel panel-default">
-					    <div class="panel-heading" role="tab" id="headingFour">
-					      <h4 class="panel-title">
-					        <a class="collapsed" data-toggle="collapse" data-parent="#who-we-are-accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-					          Lorem Ipsum dolar
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-					      <div class="panel-body">
-					        <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Nihil anim keffiyeh helvetica, craft beer.</p>
-					      </div>
-					    </div>
-					  </div>
+
+		<!-- MIDDLE ROW -->
+		<section class="row middle-row">
+			<div class="container">
+				<div class="col-sm-6 module">
+					<div class="col-xs-5">
+						<img src="img/bus-round.jpg" alt="" class="my-thumbnail">
+					</div>
+					<div class="col-xs-7">
+						<h4 class="h4">Lorem Ipsum dolar</h4>
+						<p class="mod-text">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda</p>
 					</div>
 				</div>
-			</section>
-			<div class="col-md-1 extra-gutter"></div>
-			<!-- CLIENTS -->
-			<section id="clients">
-				<div class="col-md-5">
-					<h3>Clients</h3>
-					<img src="img/clients.jpg" alt="">
-					<img src="img/clients.jpg" alt="">
-					<img src="img/clients.jpg" alt="">
-					<img src="img/clients.jpg" alt="">
-					<img src="img/clients.jpg" alt="">
-					<img src="img/clients.jpg" alt="">
-					<img class="clients-controls center-block" src="img/clients-controls2.jpg" alt="">
+				<!-- <div class="col-sm-2 extra-gutter"></div> -->
+				<div class="col-sm-6 module">
+					<div class="col-xs-5">
+						<img src="img/bus-round.jpg" alt="" class="my-thumbnail">
+					</div>
+					<div class="col-xs-7">
+						<h4 class="h4">Lorem Ipsum dolar</h4>
+						<p class="mod-text">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda</p>
+					</div>
 				</div>
-			</section>
-		</div>
+				<div class="col-sm-6 module">
+					<div class="col-xs-5">
+						<img src="img/bus-round.jpg" alt="" class="my-thumbnail">
+					</div>
+					<div class="col-xs-7">
+						<h4 class="h4">Lorem Ipsum dolar</h4>
+						<p class="mod-text">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda</p>
+					</div>
+				</div>
+				<div class="col-sm-6 module">
+					<div class="col-xs-5">
+						<img src="img/bus-round.jpg" alt="" class="my-thumbnail">
+					</div>
+					<div class="col-xs-7">
+						<h4 class="h4">Lorem Ipsum dolar</h4>
+						<p class="mod-text">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- BOTTOM SECTION -->
+		<section class="row bottom-row">
+			<div class="container">
+				<!-- TITULO & SUBTITULO -->
+				<div class="col-xs-12 text-center">
+					<h2 class="title-home"><span class="gp-red">Glass</span><span class="gp-white">Protech</span> <span class="title-home-thin">Lorem ipsum dolar</span></h2>
+					<h3 class="sub-title-home">Lorem ipsum dolor sit amet</h3>
+					<div class="col-sm-10 col-sm-offset-1"><hr></div>
+				</div>
+				<!-- TEXT LISTS -->
+				<div class="col-sm-10 col-sm-offset-1">
+					<div class="col-sm-4">
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+					</div>
+					<div class="col-sm-4">
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+					</div>
+					<div class="col-sm-4">
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+						<p class="sub-title-home"><i class="fa fa-chevron-circle-right"></i>&nbsp;Lorem ipsum dolor sit amet dolor.</p>
+					</div>
+				</div>
+
+				<div class="col-xs-8 col-xs-offset-2 text-center">
+					<p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, cumque ut consequuntur voluptate, cum impedit! Beatae atque cumque tempora doloribus rem reprehenderit, architecto nisi voluptas, eos recusandae adipisci odit consequuntur. Beatae atque cumque tempora doloribus rem reprehenderit, architecto nisi voluptas, eos recusandae adipisci odit consequuntur.</p>
+				</div>
+			</div>
+		</section>
 
 <!-- FOOTER -->
 <?php include('inc/footer-inc.php') ?>
