@@ -122,10 +122,10 @@ ul.nav.navbar-nav {
 }
 
 /************************* Slider *****************************/
+.nivoSlider:hover .nivo-directionNav a { visibility: visible; }
 .slider{
 	background-color: #efefef;
 }
-
 .slider > .col-xs-12{
 	padding: 0px;
 }
@@ -232,6 +232,8 @@ ul.nav.navbar-nav {
 #faq-franchisee .col-sm-6 { width: 47.5%; }
 #faq-franchisee .h4 { color:#ED1922; }
 #faq-franchisee .mod-text { width:90%; }
+#faqs-form .form-control { border-radius: 6px; }
+#faqs-form .btn { margin-top: -4px; }
 
 /* +++++ What We Do +++++ */
 #what-we-do .top-row .col-sm-6 { width: 42%; }

@@ -60,11 +60,12 @@
 
 /* Caption styles */
 .nivo-caption {
+	font-size: 35px;
 	position:absolute;
-	left:45%;
+	left:35%;
 	bottom:45%;
-	background:#000;
-	color:#fff;
+	background:transparent;
+	color:#333;
 	width:100%;
 	z-index:8;
 	padding: 5px 10px;
@@ -89,16 +90,18 @@
 }
 /* Direction nav styles (e.g. Next & Prev) */
 .nivo-directionNav a {
+	color: #ED1922;
 	position:absolute;
 	top:45%;
 	z-index:9;
 	cursor:pointer;
+	visibility: hidden;
 }
 .nivo-prevNav {
-	left:0px;
+	left:15px;
 }
 .nivo-nextNav {
-	right:0px;
+	right:15px;
 }
 /* Control nav styles (e.g. 1,2,3...) */
 .nivo-controlNav {
