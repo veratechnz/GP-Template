@@ -293,8 +293,8 @@ ul.nav.navbar-nav li.active a, .navbar-default .navbar-nav > li > a:hover, .navb
 	margin-top: 25px;
 }
 
-#what-we-do .bottom-row { background-color: #4D515A; }
-#what-we-do .bottom-row .title-home-thin { color: #CCCCCC; }
+#what-we-do .bottom-row { background:url(../img/what-we.jpg); }
+#what-we-do .bottom-row .title-home-thin { color: #fff; }
 #what-we-do .sub-title-home {
 	color:#FFFFFF;
 	font-size: 16px;
@@ -311,6 +311,7 @@ ul.nav.navbar-nav li.active a, .navbar-default .navbar-nav > li > a:hover, .navb
 	margin-top:30px;
 	margin-bottom:65px;
 }
+.gp-white{color: #000;}
 
 /************************* Footer ******************************/
 .footer {
