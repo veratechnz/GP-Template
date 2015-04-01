@@ -62,10 +62,10 @@
 .nivo-caption {
 	font-size: 35px;
 	position:absolute;
-	left:35%;
-	bottom:45%;
+	left:30%;
+	bottom:20%;
 	background:transparent;
-	color:#333;
+	color:#fff;
 	width:100%;
 	z-index:8;
 	padding: 5px 10px;
@@ -90,7 +90,7 @@
 }
 /* Direction nav styles (e.g. Next & Prev) */
 .nivo-directionNav a {
-	color: #ED1922;
+	color: #ccc;
 	position:absolute;
 	top:45%;
 	z-index:9;

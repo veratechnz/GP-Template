@@ -6,26 +6,32 @@
 *	GP white:	#FFFFFF	rgb(255,255,255);
 **********************/
 
+/**************************** Fonts ***************************/
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,300,400italic);
+body,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {font-family: 'Lato', sans-serif;}
+
 /************************** Sticky Footer Info *****************/
 html {
   position: relative;
   min-height: 100%;
+  font-family: 'Lato', sans-serif;
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 350px;
+  margin-bottom: 400px;
+  font-size: 15px;
 }
 
 /**************************** Resets ***************************/
 img { max-width: 100%; }
 h3, .h3 { font-size: 18px; }
-h4, .h4 { font-size: 18px; }
-p { font-size: 12px; }
+h4, .h4 { font-size: 15px; }
+p { font-size: 16px; }
 small { font-size: 11px; }
 
 /**************************** Colors ***************************/
 .gp-red { color: #ED1922; }
-.gp-black { color:#000000; }
+.gp-black { color: #000000; }
 .gp-white { color: #FFFFFF; }
 
 /*********************************** Sections ******************/
@@ -81,7 +87,7 @@ small { font-size: 11px; }
 
 /**************************** Logo *****************************/
 .logo img {
-	padding-top: 15px;
+	padding-top: 18px;
 	padding-bottom: 15px;
 }
 /* Fix to look the same as template */
@@ -106,23 +112,24 @@ small { font-size: 11px; }
 ul.nav.navbar-nav {
 	width: 100%;
 }
-.navbar-default .navbar-nav > li > a { margin-right: 50px; }
-
-.navbar.navbar-default {
-	margin-bottom: 0px;
-	min-height: 50px;
-}
+.navbar-default .navbar-nav > li > a { margin-right: 50px; padding: 14px 0 2px; color: #d6d6d6;}
+ul.nav.navbar-nav li.active a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {border-bottom: none;}
+.navbar.navbar-default { margin-bottom: 0px; min-height: 50px; }
 
 /* .navbar-nav li a --> see ".navbar-default .navbar-nav > li > a" in bootstrap.css  */
 
 .navbar-nav .fa-search {
-	color: #FFF;
+	color: #d6d6d6;
 	padding-left:90px;
 	margin-top: 15px;
 }
 
 /************************* Slider *****************************/
+.pirulo {
+	position: relative;
+}
 .nivoSlider:hover .nivo-directionNav a { visibility: visible; }
+
 .slider{
 	background-color: #efefef;
 }
@@ -130,13 +137,43 @@ ul.nav.navbar-nav {
 	padding: 0px;
 }
 
+.nivo-caption {
+	margin: auto;
+	max-width: 582px;
+	max-height:250px;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+}
+
+.nivo-caption h1,
+.nivo-caption span {
+	font-weight: 900;
+}
+
+.nivo-caption h1 { font-size: 46px; }
+
+.nivo-caption p {	color: #ddd; }
+
+.nivo-caption sup { vertical-align: super; }
+.nivo-caption h1 sup { font-size: 14px; }
+.nivo-caption p sup { font-size: 10px; }
+
+.nivo-caption .btn {
+	color: #FFFFFF;
+	font-weight: 600;
+	background-color: #000000;
+	margin-right: 5px;
+}
 /************************* Content *****************************/
 .content{
 	background-color: #fff;
 	height: 500px;
 }
 
-/*.content-header {	background:url(../img/content-header.jpg); }*/
+.content-header {	background:url(../img/window-panel.jpg); }
 .content-header { background-color: #4D515A; }
 .content-header img { margin-left:-15px; }
 .content-header h1 { color: #FFFFFF; margin: 40px 0px 35px; }
@@ -167,31 +204,41 @@ ul.nav.navbar-nav {
 }
 
 /* Services */
+.services-home {
+	max-width:73%;
+}
+
 .service-home {
 	margin-top: 25px;
 }
 @media (min-width: 640px) and (max-width: 767px) {
-	.service-home { width:30%; float:left; margin-right: 1%; margin-bottom: 45px; }
-	.service-home.first { margin-left: 4%; }
-	.service-home.last { margin-right: 4%; }
+	.service-home { width:30%; float:left; margin-right: 4px; margin-bottom: 45px; }
+	.service-home.first { margin-left: 17px; }
+	.service-home.last { margin-right: 17px; }
 }
 @media (min-width: 768px) {
-	.service-home { width:30%; float:left; margin-top: 35px; margin-bottom: 45px; }
-	.service-home.first { margin-left: 5%; }
-	.service-home.last { margin-right: 5%; }
+	.service-home {
+		margin-right: 4px;
+		margin-top: 35px;
+		margin-bottom: 45px;
+		float:left;
+		width:30%;
+	}
+	.service-home.first { margin-left: 18px; }
+	.service-home.last { margin-right: 26px; }
 }
 @media (min-width: 992px) {
-	.service-home { width: 20%; margin-right: 1%; margin-bottom: 0px; }
-	.service-home.first { margin-left: 1%; }
-	.service-home.last { margin-right: 3%; }
+	.service-home { width: 20%; margin-right: 6px; margin-bottom: 0px; }
+	.service-home.first { margin-left: 6px; }
+	.service-home.last { margin-right: 20px; }
 }
 /* Fix to look the same as template */
 @media (min-width: 1200px) {
-	.service-home { margin-left:0px; margin-right:0px; }
-	.service-home.first { margin-left:0px; }
-	.service-home.last { margin-right: 1%; }
-	}
+	.service-home { margin-left: 0px; margin-right: 0px; }
+	.service-home.first { margin-left: 0px; }
+	.service-home.last { margin-right: 11px; }
 }
+
 /* fix ends */
 
 .service-home img {
@@ -207,11 +254,11 @@ ul.nav.navbar-nav {
 @media (min-width: 992px) {
 	.news-home { width: 30%; float: left; }
 	.news-item { max-width: 100%; float: none; }
-	.news-item.first { margin-right: 0%; }
+	.news-item.first { margin-right: 0px; }
 }
 .news-title{
 	border-bottom: 1px solid #EE2A2B;
-	padding-bottom: 2%;
+	padding-bottom: 10px;
 	font-weight: bold;
 	margin-top: 0px;
 }
@@ -221,9 +268,39 @@ ul.nav.navbar-nav {
 }
 
 /* +++++ About Us +++++ */
+#business-desc { margin:30px 0px 60px 0px; overflow: auto; }
+#business-desc p { font-size: 16px; }
+
+#good-at {
+	background-color: #f2f2f2;
+	overflow: auto;
+}
+#good-at img { margin: 50px 0px; width:950px; }
+
+/*#who-we-are, #clients { overflow: auto; }*/
+#who-we-are h3, #clients h3 { font-size: 24px; margin:60px 0px 25px 0px; }
+
+#who-we-are-accordion .panel-heading {
+	color: #FFFFFF;
+	background-color: #A4A4A4;
+}
+#who-we-are-accordion .headingOne {
+	background-color: #EE2A2B;
+}
+
 #business-desc { margin:0px 0px 60px 0px; }
 #business-desc .title-home { margin-bottom:40px; }
-#business-desc p { font-size: 14px; }
+#business-desc p { font-size: 16px; }
+
+#clients img {
+	width:110px; height: 110px;
+	margin: 0px 23px 23px 0px;
+}
+#clients .clients-controls {
+	display: block;
+	margin:10px auto 0px auto;
+	width:55px; height: 15px;
+}
 
 #good-at img { margin: 50px 0px; width:950px; } /* fix for the percentage circles */
 
@@ -237,7 +314,7 @@ ul.nav.navbar-nav {
 
 /* +++++ What We Do +++++ */
 #what-we-do .top-row .col-sm-6 { width: 42%; }
-#what-we-do .top-row .title-home {
+.title-home {
 	padding-bottom:12px;
 	border-bottom:1px solid #EE2A2B;
 	margin-top: 60px;
@@ -259,8 +336,8 @@ ul.nav.navbar-nav {
 	margin-top: 25px;
 }
 
-#what-we-do .bottom-row { background-color: #4D515A; }
-#what-we-do .bottom-row .title-home-thin { color: #CCCCCC; }
+#what-we-do .bottom-row { background:url(../img/what-we.jpg); }
+#what-we-do .bottom-row .title-home-thin { color: #fff; }
 #what-we-do .sub-title-home {
 	color:#FFFFFF;
 	font-size: 16px;
@@ -351,7 +428,7 @@ a:hover {
 
 .multiple-sections { margin-bottom: 75px; }
 
-.container.services-home { width:73%; }
+.container.bottom-section { margin-bottom: 75px; }
 
 .extra-gutter { width:4%; }
 
@@ -368,10 +445,9 @@ a:hover {
 	margin:60px 0px 25px 0px;
 }
 .mod-text { padding:15px 15px 15px 0px; }
-
 .my-thumbnail {
 	width:110px; height: 110px;
-	margin: 0px 23px 23px 0px;	
+	margin: 0px 23px 23px 0px;
 }
 .my-thumbnails-controls {
 	display: block;
@@ -382,11 +458,11 @@ a:hover {
 .accordion .panel.panel-default,
 .accordion .panel-body { border:none !important; box-shadow: none; }
 .accordion .panel-heading {
-	color: #FFFFFF;
-	background-color: #A4A4A4;
-	border-radius: 6px;
-	border:none;
-}
+	 color: #FFFFFF;
+	 background-color: #A4A4A4;
+	 border-radius: 6px;
+	 border:none;
+	 }
 .accordion .headingOne { /* fix for first presentation. Needs to be done via JS */
-	background-color: #EE2A2B;
-}
+	 background-color: #EE2A2B;
+	 }
