@@ -18,7 +18,7 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 350px;
+  margin-bottom: 400px;
   font-size: 15px;
 }
 
@@ -31,7 +31,8 @@ small { font-size: 11px; }
 
 /**************************** Colors ***************************/
 .gp-red { color: #ED1922; }
-.gp-black { color:#000000; }
+.gp-black { color: #000000; }
+.gp-white { color: #FFFFFF; }
 
 /*********************************** Sections ******************/
 .top-panel{
@@ -124,16 +125,48 @@ ul.nav.navbar-nav li.active a, .navbar-default .navbar-nav > li > a:hover, .navb
 }
 
 /************************* Slider *****************************/
+.pirulo {
+	position: relative;
+}
 .nivoSlider:hover .nivo-directionNav a { visibility: visible; }
 
 .slider{
 	background-color: #efefef;
 }
-
 .slider > .col-xs-12{
 	padding: 0px;
 }
 
+.nivo-caption {
+	margin: auto;
+	max-width: 582px;
+	max-height:250px;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+}
+
+.nivo-caption h1,
+.nivo-caption span {
+	font-weight: 900;
+}
+
+.nivo-caption h1 { font-size: 46px; }
+
+.nivo-caption p {	color: #ddd; }
+
+.nivo-caption sup { vertical-align: super; }
+.nivo-caption h1 sup { font-size: 14px; }
+.nivo-caption p sup { font-size: 10px; }
+
+.nivo-caption .btn {
+	color: #FFFFFF;
+	font-weight: 600;
+	background-color: #000000;
+	margin-right: 5px;
+}
 /************************* Content *****************************/
 .content{
 	background-color: #fff;
@@ -171,31 +204,41 @@ ul.nav.navbar-nav li.active a, .navbar-default .navbar-nav > li > a:hover, .navb
 }
 
 /* Services */
+.services-home {
+	max-width:73%;
+}
+
 .service-home {
 	margin-top: 25px;
 }
 @media (min-width: 640px) and (max-width: 767px) {
-	.service-home { width:30%; float:left; margin-right: 1%; margin-bottom: 45px; }
-	.service-home.first { margin-left: 4%; }
-	.service-home.last { margin-right: 4%; }
+	.service-home { width:30%; float:left; margin-right: 4px; margin-bottom: 45px; }
+	.service-home.first { margin-left: 17px; }
+	.service-home.last { margin-right: 17px; }
 }
 @media (min-width: 768px) {
-	.service-home { width:30%; float:left; margin-top: 35px; margin-bottom: 45px; }
-	.service-home.first { margin-left: 5%; }
-	.service-home.last { margin-right: 5%; }
+	.service-home {
+		margin-right: 4px;
+		margin-top: 35px;
+		margin-bottom: 45px;
+		float:left;
+		width:30%;
+	}
+	.service-home.first { margin-left: 18px; }
+	.service-home.last { margin-right: 26px; }
 }
 @media (min-width: 992px) {
-	.service-home { width: 20%; margin-right: 1%; margin-bottom: 0px; }
-	.service-home.first { margin-left: 1%; }
-	.service-home.last { margin-right: 3%; }
+	.service-home { width: 20%; margin-right: 6px; margin-bottom: 0px; }
+	.service-home.first { margin-left: 6px; }
+	.service-home.last { margin-right: 20px; }
 }
 /* Fix to look the same as template */
 @media (min-width: 1200px) {
-	.service-home { margin-left:0px; margin-right:0px; }
-	.service-home.first { margin-left:0px; }
-	.service-home.last { margin-right: 1%; }
-	}
+	.service-home { margin-left: 0px; margin-right: 0px; }
+	.service-home.first { margin-left: 0px; }
+	.service-home.last { margin-right: 11px; }
 }
+
 /* fix ends */
 
 .service-home img {
@@ -211,11 +254,11 @@ ul.nav.navbar-nav li.active a, .navbar-default .navbar-nav > li > a:hover, .navb
 @media (min-width: 992px) {
 	.news-home { width: 30%; float: left; }
 	.news-item { max-width: 100%; float: none; }
-	.news-item.first { margin-right: 0%; }
+	.news-item.first { margin-right: 0px; }
 }
 .news-title{
 	border-bottom: 1px solid #EE2A2B;
-	padding-bottom: 2%;
+	padding-bottom: 10px;
 	font-weight: bold;
 	margin-top: 0px;
 }
@@ -311,7 +354,6 @@ ul.nav.navbar-nav li.active a, .navbar-default .navbar-nav > li > a:hover, .navb
 	margin-top:30px;
 	margin-bottom:65px;
 }
-.gp-white{color: #000;}
 
 /************************* Footer ******************************/
 .footer {
@@ -386,7 +428,6 @@ a:hover {
 
 .multiple-sections { margin-bottom: 75px; }
 
-.container.services-home { width:73%; }
 .container.bottom-section { margin-bottom: 75px; }
 
 .extra-gutter { width:4%; }

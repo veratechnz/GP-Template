@@ -65,7 +65,7 @@
 
 <!-- All JS Files -->
 <script src="js/jquery.js"></script>
-<script src="js/nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<script src="js/nivo-slider/jquery.nivo.slider.js" type="text/javascript"></script>
 <script src="js/custom.js"></script>
 </body>
 </html>
