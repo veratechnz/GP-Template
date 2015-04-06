@@ -148,6 +148,11 @@ ul.nav.navbar-nav li.active a, .navbar-default .navbar-nav > li > a:hover, .navb
 	right:0;
 }
 
+.caption-title{
+	border-bottom: 1px solid #EE2A2B;
+
+}
+
 .nivo-caption h1,
 .nivo-caption span {
 	font-weight: 900;
@@ -155,7 +160,7 @@ ul.nav.navbar-nav li.active a, .navbar-default .navbar-nav > li > a:hover, .navb
 
 .nivo-caption h1 { font-size: 46px; }
 
-.nivo-caption p {	color: #ddd; }
+.nivo-caption p {	color: #fff; }
 
 .nivo-caption sup { vertical-align: super; }
 .nivo-caption h1 sup { font-size: 14px; }

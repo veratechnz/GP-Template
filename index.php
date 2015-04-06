@@ -15,15 +15,9 @@
 <!-- NAV BAR -->
 <?php include('inc/nav-inc.php') ?>
 
-		<!-- SLIDER -->
-		<div class="row slider">
-			<div class="col-xs-12">
-				<div id="slider" class="nivoSlider">
-			    <img src="img/slide-a.jpg" alt="" />
-			    <img src="img/slide-b.jpg" alt="" />
-				</div>
-			</div>
-		</div>
+<!-- SLIDER -->
+<?php include('inc/slider-inc.php') ?>
+
 		<!-- CONTENT -->
 		<div class="row content">
 			<div class="container services-home">
