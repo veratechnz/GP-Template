@@ -40,23 +40,17 @@
 					<div class="col-md-12">
 						<div class="flexslider">
 						<ul class="slides">
-						<li data-thumb="img/slider/slide-a.jpg">
-						<img src="img/slider/slide-a.jpg" />
+						<li data-thumb="img/slider/test-a.jpg">
+						<img src="img/slider/test-a.jpg" />
 						</li>
-						<li data-thumb="img/slider/slide-d.jpg">
-						<img src="img/slider/slide-d.jpg" />
+						<li data-thumb="img/slider/test-b.jpg">
+						<img src="img/slider/test-b.jpg" />
 						</li>
-						<li data-thumb="img/slider/slide-g.jpg">
-						<img src="img/slider/slide-g.jpg" />
+						<li data-thumb="img/slider/test-c.jpg">
+						<img src="img/slider/test-c.jpg" />
 						</li>
-						<li data-thumb="img/slider/slide-b.jpg">
-						<img src="img/slider/slide-b.jpg" />
-						</li>
-						<li data-thumb="img/slider/slide-c.jpg">
-						<img src="img/slider/slide-c.jpg" />
-						</li>
-						<li data-thumb="img/slider/slide-f.jpg">
-						<img src="img/slider/slide-f.jpg" />
+						<li data-thumb="img/slider/test-d.jpg">
+						<img src="img/slider/test-d.jpg" />
 						</li>
 						</ul>
 						</div> 

@@ -37,8 +37,9 @@ if (document.getElementById('slider')) {
   $(window).load(function(){
     //Flex Slider For Gallery Page Call
     $('.flexslider').flexslider({
-      controlNav: 'thumbnails'
-
+      controlNav: 'thumbnails',
+      prevText: "",    //String: Set the text for the "previous" directionNav item
+      nextText: ""       //String: Set the text for the "next" directionNav item
     });
 
   });
