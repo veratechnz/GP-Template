@@ -32,49 +32,42 @@
 				<h2 class="title-home"><span class="gp-red">Glass</span><span class="gp-black">Protech</span> <span class="title-home-thin">Serious About Surface Protection</span></h2>
 			</div>
 			<div class="clearfix"></div>
-			<!-- BUSINESS DESCRIPTION -->
-			<section id="business-desc">
-				<div class="col-sm-7">
-					<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.<br> 
-						<p>Craft beer labore wes anderson cred nesciunt sapiente ea proident. Reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.</p>	
-				</div>
-				<div class="col-sm-5">
-					<img src="img/business-desc.jpg" alt="">
-				</div>
-			</section>
 		</div>
 		<!-- WE'RE GOOD AT -->
-		<section id="good-at" class="row">
+		<section class="slide-time" class="row">
 			<div class="container">
-				<div class="col-xs-12 text-center">
-					<h2 class="text-center">WHAT WE'RE GOOD AT</h2>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="flexslider">
+						<ul class="slides">
+						<li data-thumb="img/slider/slide-a.jpg">
+						<img src="img/slider/slide-a.jpg" />
+						</li>
+						<li data-thumb="img/slider/slide-d.jpg">
+						<img src="img/slider/slide-d.jpg" />
+						</li>
+						<li data-thumb="img/slider/slide-g.jpg">
+						<img src="img/slider/slide-g.jpg" />
+						</li>
+						<li data-thumb="img/slider/slide-b.jpg">
+						<img src="img/slider/slide-b.jpg" />
+						</li>
+						<li data-thumb="img/slider/slide-c.jpg">
+						<img src="img/slider/slide-c.jpg" />
+						</li>
+						<li data-thumb="img/slider/slide-f.jpg">
+						<img src="img/slider/slide-f.jpg" />
+						</li>
+						</ul>
+						</div> 
+					</div>
 				</div>
-				<div class="col-xs-12">
-					<img src="img/good-at.jpg" alt="">
-				</div>
-
-				<!-- <div class="col-sm-6 col-md-3 text-center">
-					<h4>LOREM IPSUM</h4>
-					<p>100%</p>
-				</div>
-				<div class="col-sm-6 col-md-3 text-center">
-					<h4>LOREM IPSUM</h4>
-					<p>98%</p>
-				</div>
-				<div class="col-sm-6 col-md-3 text-center">
-					<h4>LOREM IPSUM</h4>
-					<p>97%</p>
-				</div>
-				<div class="col-sm-6 col-md-3 text-center">
-					<h4>LOREM IPSUM</h4>
-					<p>95%</p>
-				</div> -->
 			</div>
 		</section>
 		<div class="container bottom-section">
 			<!-- WHO WE ARE -->
 			<section id="who-we-are">
-				<div class="col-md-6">
+				<div class="col-md-12">
 					<h3>Who we are</h3>
 					<div class="panel-group accordion" id="who-we-are-accordion" role="tablist" aria-multiselectable="true">
 					  <div class="panel panel-default">
@@ -137,19 +130,6 @@
 				</div>
 			</section>
 			<div class="col-md-1 extra-gutter"></div>
-			<!-- CLIENTS -->
-			<section id="clients">
-				<div class="col-md-5">
-					<h3>Clients</h3>
-					<img src="img/clients.jpg" alt="">
-					<img src="img/clients.jpg" alt="">
-					<img src="img/clients.jpg" alt="">
-					<img src="img/clients.jpg" alt="">
-					<img src="img/clients.jpg" alt="">
-					<img src="img/clients.jpg" alt="">
-					<img class="clients-controls center-block" src="img/clients-controls2.jpg" alt="">
-				</div>
-			</section>
 		</div>
 
 <!-- FOOTER -->
@@ -158,8 +138,6 @@
 	</div><!-- main wrapper ends -->
 
 <!-- All JS Files -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/custom.js"></script>
+<?php include('inc/js-inc.php') ?>
 </body>
 </html>

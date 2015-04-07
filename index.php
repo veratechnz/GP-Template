@@ -22,7 +22,7 @@
 		<div class="row content">
 			<div class="container services-home">
 				<div class="col-md-12 text-center">
-					<h2 class="title-home"><span class="gp-red">Glass</span><span class="gp-black">Protech</span> <span class="title-home-thin">Serious About Surface Protection</span></h2>
+					<h2 class="title-home">Glass Protech<span class="title-home-thin">Serious About Surface Protection</span></h2>
 				</div>
 				<div class="service-home first">
 					<img src="img/glassprotech-services-a.jpg" alt="">
@@ -58,8 +58,6 @@
 	</div><!-- main wrapper ends -->
 
 <!-- All JS Files -->
-<script src="js/jquery.js"></script>
-<script src="js/nivo-slider/jquery.nivo.slider.js" type="text/javascript"></script>
-<script src="js/custom.js"></script>
+<?php include('inc/js-inc.php') ?>
 </body>
 </html>

@@ -2,6 +2,8 @@
 
 // Nivo  Slider Call
 if (document.getElementById('slider')) {
+
+
   $(window).load(function() {
 
     $('#slider').nivoSlider({
@@ -26,5 +28,20 @@ if (document.getElementById('slider')) {
       lastSlide: function(){},         // Triggers when last slide is shown
       afterLoad: function(){}         // Triggers when slider has loaded      
     });
+
   }); //Window onload ends
-};
+
+} else {
+
+// Flex Slider Call
+  $(window).load(function(){
+    //Flex Slider For Gallery Page Call
+    $('.flexslider').flexslider({
+      controlNav: 'thumbnails'
+
+    });
+
+  });
+
+
+}; //if conditional ends. 

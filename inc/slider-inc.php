@@ -10,7 +10,7 @@
 			    <h1 class="caption-title">Welcome to Glass</span>Protech<sup>TM</sup></h1>
 			    <p><span class="gp-white">Glass</span> Protech<sup>TM</sup></span> is a network of professional aplicators of window film and other surface protection mediums with dedicated teams across New Zealand. Interested in joining our team? We are growing throughout new Zealand and are looking for new partners.
 			    </p>
-			    <p><button id="slider-btn" type="button" class="btn btn-default" aria-label="slider-btn">CLICK HERE</button>for more info.</p>
+			    <p><button id="slider-btn" type="button" class="btn btn-default" aria-label="slider-btn">CONTACT US</button></p>
 				</div>
 				<!-- <div id="caption" class="nivo-html-caption"> -->
 				<!-- <div class="col-xs-6 col-xs-offset-3">
